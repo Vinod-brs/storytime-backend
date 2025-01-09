@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "npm install",
+    "predeploy": "npm install && npm install nodemon && npm run dev",
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
