@@ -1,0 +1,38 @@
+{
+  "name": "storytime-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "are-we-there-yet": "^4.0.2",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-async-handler": "^1.2.0",
+    "formidable": "^3.5.2",
+    "gauge": "^5.0.2",
+    "glob": "^11.0.0",
+    "inflight": "^1.0.6",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.3",
+    "nodemailer": "^6.9.16",
+    "npmlog": "^7.0.1",
+    "rimraf": "^6.0.1",
+    "spotify-web-api-node": "^5.0.2",
+    "superagent": "^10.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
